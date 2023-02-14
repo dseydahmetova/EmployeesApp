@@ -1,0 +1,84 @@
+.App {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid black;
+  padding: 3px;
+  width: 735px;
+}
+
+.HomePage {
+  border: 3px solid orange;
+  margin-right: 3px;
+}
+
+.EmployeePage {
+  border: 3px solid rgb(95, 60, 8);
+}
+
+.Header {
+  border: 3px solid rgb(0, 153, 255);
+  text-align: center;
+}
+
+.Search {
+  border: 3px solid rgb(20, 161, 20);
+}
+
+.EmployeeList {
+  width: 350px;
+  border: 3px solid purple;
+  margin: 2px;
+}
+
+.EmployeeListItem {
+  border: 3px solid rgb(177, 40, 63);
+  width: 340px;
+  margin: 2px;
+  height: 80px;
+  display: flex;
+}
+
+.Header,
+.Search {
+  width: 350px;
+  padding: 0;
+  margin: 2px;
+  height: 40px;
+  text-align: center;
+}
+
+.SearchInput {
+  width: 330px;
+  height: 25px;
+  margin: 5px;
+}
+
+h3 {
+  padding: 0;
+  margin: 5px 0;
+  margin-top: 10px;
+}
+
+h4 {
+  color: gray;
+  margin: 0;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.hidden {
+  opacity: 0;
+}
